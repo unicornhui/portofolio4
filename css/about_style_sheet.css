@@ -1,0 +1,67 @@
+body {
+	background-image: url('../Assets/Images/Watercolor.jpg');
+	background-repeat: no-repeat;
+	background-position: 400px 500px;
+    display: block;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+header{
+	display:grid;
+	grid-template-columns: 34% 66%;
+}
+h1{
+	position: absolute;
+	grid-column-start: 1;
+	margin: 0px;
+	color: #FCC5C5;
+	font-size:19px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+nav{
+	grid-column-start: 2;
+}
+nav a:link{
+	color:#292929;
+	font-size:19px;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	margin-right: 54px;
+}
+nav a:visited{
+	color:#292929;
+}
+nav a:hover{
+	color:#292929;
+	text-decoration: underline;
+}
+.logopart{
+	display:grid;
+	grid-template-columns: 34% 66%;
+}
+i{
+	position:absolute;
+	display:inline-block;
+	margin-top: 150px;
+}
+h2{
+	grid-column-start: 2;
+	color: #292929;
+	font-size: 80px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	margin-top: 130px;
+	margin-bottom: 0px;
+}
+p{
+	grid-column: 2/3;
+	color: #292929;
+	font-size:19px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 30px;
+	margin-right: 80px;
+	margin-bottom: 50px;
+}

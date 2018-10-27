@@ -1,0 +1,28 @@
+h1{
+	font-size: 19px;
+	color: #292929;
+}
+h2{
+	font-size:19px;
+	color:#929292;
+}
+h3{
+	font-size: 19px;
+	color: #292929;
+}
+h4{
+	font-size:19px;
+	color:#929292;
+}
+/*a{
+	text-decoration: none;
+}*/
+div:link{
+	text-decoration: none;
+}
+div:visited{
+	text-decoration: none;
+}
+div:hover{
+	text-decoration: underline;
+}
